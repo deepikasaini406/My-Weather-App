@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="main-container bg-images">
+            <!-- <img src="/images/pexels-cameron-casey-1722183.jpg" alt=""> -->
+            <div class="header">
+                <div class="col search color-primary">
+                    <div class="field-container">
+                        <input class="field" type="text">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <h1 class="col color-primary"><span id="city-name">Noida</span>, <span id="country-name">India</span></h1>
+                <div class="col">
+                    <div id="menuToggle" class="burger-menu">
+                        <input type="checkbox" />
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+    
+                        <ul id="menu">                            
+                            <a href="https://github.com/deepikasaini406?tab=repositories" target="_blank"><li>Show me more</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content color-primary">
+                <div class="temprature">
+                    <div class="curr-icon">
+                        <img id="icon-curr" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+                    </div>
+                    <h1 id="temp-curr">23<sup>&deg;</sup></h1>
+                    <div class="footer">
+                        <span class="day">Sunday</span>
+                        <span class="date mid">Sep 25</span>
+                        <span class="time">08:16</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="week-container">
+            <div class="week-card">
+                <div class="day">Monday</div>
+                <div class="weather-img">
+                    <img class="icon" src="/images/icons/reshot-icon-cloudy-Z3RM5KHT8E.svg" alt="">
+                </div>
+                <div class="tempratures">
+                    <span class="max">5</span>
+                    <span class="min">2</span>
+                </div>
+            </div>
+            <div class="week-card">
+                <div class="day">Tuesday</div>
+                <div class="weather-img">
+                    <img class="icon" src="/images/icons/reshot-icon-cloudy-Z3RM5KHT8E.svg" alt="">
+                </div>
+                <div class="tempratures">
+                    <span class="max">5</span>
+                    <span class="min">2</span>
+                </div>
+            </div>
+            <div class="week-card">
+                <div class="day">Wednesday</div>
+                <div class="weather-img">
+                    <img class="icon" src="/images/icons/reshot-icon-cloudy-Z3RM5KHT8E.svg" alt="">
+                </div>
+                <div class="tempratures">
+                    <span class="max">5</span>
+                    <span class="min">2</span>
+                </div>
+            </div>
+            <div class="week-card">
+                <div class="day">Thursday</div>
+                <div class="weather-img">
+                    <img class="icon" src="/images/icons/reshot-icon-cloudy-Z3RM5KHT8E.svg" alt="">
+                </div>
+                <div class="tempratures">
+                    <span class="max">5</span>
+                    <span class="min">2</span>
+                </div>
+            </div>
+            <div class="week-card">
+                <div class="day">Friday</div>
+                <div class="weather-img">
+                    <img class="icon" src="/images/icons/reshot-icon-cloudy-Z3RM5KHT8E.svg" alt="">
+                </div>
+                <div class="tempratures">
+                    <span class="max">5</span>
+                    <span class="min">2</span>
+                </div>
+            </div>
+            <div class="week-card">
+                <div class="day">Saturday</div>
+                <div class="weather-img">
+                    <img class="icon" src="/images/icons/reshot-icon-cloudy-Z3RM5KHT8E.svg" alt="">
+                </div>
+                <div class="tempratures">
+                    <span class="max">5</span>
+                    <span class="min">2</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
